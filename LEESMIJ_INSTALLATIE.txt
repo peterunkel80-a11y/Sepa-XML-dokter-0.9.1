@@ -1,22 +1,21 @@
-SEPA BESTANDSDOKTER – ANDROID/PWA UPDATE 0.9.1
+SEPA XML DOKTER 0.9.1 – GITHUB-PAGES UPDATE
 
-Deze update scherpt de installatiegegevens voor Chrome op Android aan.
-De inhoudelijke SEPA-controles en de Windows-versie blijven ongewijzigd.
+Deze bestanden zijn aangepast voor de repository:
+https://github.com/peterunkel80-a11y/Sepa-XML-dokter-0.9.1
 
-UPLOADEN NAAR GITHUB
-1. Open de repository peterunkel80-a11y/sepa-bestandsdokter.
-2. Upload de zes bestanden uit deze map rechtstreeks naar de hoofdmap (root).
-3. Kies bij de vraag om bestanden te vervangen: Replace/Commit changes.
-4. Wacht tot GitHub Pages de update heeft gepubliceerd.
+Verwacht GitHub Pages-adres:
+https://peterunkel80-a11y.github.io/Sepa-XML-dokter-0.9.1/
 
-OP DE SAMSUNG A55
-1. Verwijder de oude SEPA-snelkoppeling van het startscherm.
-2. Open Chrome en bezoek https://peterunkel80-a11y.github.io/sepa-bestandsdokter/
-3. Tik op ⋮ > Site-instellingen > Opslag en wis eventueel de sitegegevens voor deze site.
-4. Sluit Chrome volledig en open de link opnieuw.
-5. Tik op ⋮ > Installeren.
+UPLOAD
+1. Open de repository.
+2. Upload alle zes bestanden uit deze map rechtstreeks naar de hoofdmap (root).
+3. Vervang de bestaande bestanden en commit de wijzigingen.
+4. Controleer bij Settings > Pages dat de gepubliceerde branch de branch met de bestanden gebruikt en de map /(root).
 
-LET OP
-De oude snelkoppeling verwijderen is niet hetzelfde als de browsergegevens wissen.
-Na het wissen moet de app opnieuw online worden geopend om de offlinecache te vullen.
-De app verwerkt XML-bestanden lokaal op het apparaat.
+Daarna op Samsung:
+1. Verwijder de oude snelkoppeling.
+2. Wis de oude sitegegevens voor github.io in Chrome.
+3. Open het nieuwe Pages-adres terwijl internet aan staat.
+4. Wacht tot de pagina volledig geladen is en kies Chrome-menu > Installeren.
+
+Let op: de link naar github.com is de broncode/repository. De app zelf wordt geopend via het github.io-adres hierboven.

@@ -1,9 +1,9 @@
-const CACHE_NAME = 'sepa-bestandsdokter-v0-9-1';
+const CACHE_NAME = 'sepa-xml-dokter-v0-9-1';
 const APP_FILES = [
-  '/sepa-bestandsdokter/index.html',
-  '/sepa-bestandsdokter/manifest.webmanifest',
-  '/sepa-bestandsdokter/icon-192.png',
-  '/sepa-bestandsdokter/icon-512.png'
+  '/Sepa-XML-dokter-0.9.1/index.html',
+  '/Sepa-XML-dokter-0.9.1/manifest.webmanifest',
+  '/Sepa-XML-dokter-0.9.1/icon-192.png',
+  '/Sepa-XML-dokter-0.9.1/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
@@ -37,13 +37,13 @@ self.addEventListener('fetch', event => {
 
     try {
       const response = await fetch(event.request);
-      if (response.ok && url.pathname.startsWith('/sepa-bestandsdokter/')) {
+      if (response.ok && url.pathname.startsWith('/Sepa-XML-dokter-0.9.1/')) {
         await cache.put(event.request, response.clone());
       }
       return response;
     } catch (error) {
       if (event.request.mode === 'navigate') {
-        return (await cache.match('/sepa-bestandsdokter/index.html')) || Response.error();
+        return (await cache.match('/Sepa-XML-dokter-0.9.1/index.html')) || Response.error();
       }
       return Response.error();
     }
